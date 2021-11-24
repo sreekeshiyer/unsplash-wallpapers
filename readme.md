@@ -84,6 +84,7 @@ Check your results in the specified directory.
 
 <li>
 Under Personalization => Background, browse for this folder and select slideshow.
+  
 ![personalization](https://prnt.sc/20rgm60)
 <br/>
 
