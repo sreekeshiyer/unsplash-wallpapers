@@ -1,5 +1,10 @@
 from save_wallpapers import save_wallpapers
 import os
+
+
+# CHANGE THIS PATH FOR YOUR PC
+# If you are using Windows, use \\ as demonstrated
+# Make sure the path ends with a '/' or a '\\'
 directory = "C:\\Users\\zenon\\Pictures\\walls\\"
 
 
