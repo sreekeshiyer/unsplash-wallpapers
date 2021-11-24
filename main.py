@@ -5,13 +5,15 @@ import os
 # CHANGE THIS PATH FOR YOUR PC
 # If you are using Windows, use \\ as demonstrated
 # Make sure the path ends with a '/' or a '\\'
-directory = "C:\\Users\\zenon\\Pictures\\walls\\"
+directory = "C:\\Users\\<user_name>\\Pictures\\walls\\"
 
 
 def change_dir_style(dir):
 
     new_dir = str(dir).replace("\\", "/")
     new_dir = new_dir.replace(":", "")
+    if str(dir).startswith('/'):
+        return new_dir
     return ('/'+new_dir)
 
 
