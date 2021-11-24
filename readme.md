@@ -37,7 +37,7 @@ python -m pip install requests
 ```
 
 <li>
-Register yourself at <a href="https://unsplash.com/developers">Unsplash Developers</a> and get an Access Key.
+Register yourself at <a href="https://unsplash.com/developers" target="_blank">Unsplash Developers</a> and get an Access Key.
 <br/>Add this Access Key in **config.py** -
 
 ```python
