@@ -77,14 +77,14 @@ python main.py
 <li>
 Check your results in the specified directory.
 
-[WallsFolder](https://res.cloudinary.com/zenon-cloudinary/image/upload/v1637754987/unsplash-wallpapers-assets/Screenshot_470_czewgr.png)
+![WallsFolder](https://res.cloudinary.com/zenon-cloudinary/image/upload/v1637754987/unsplash-wallpapers-assets/Screenshot_470_czewgr.png)
 
 <br/>
 
 <li>
 Under Settings=> Personalization => Background, browse for this folder and select slideshow.
   
-[Settings](https://res.cloudinary.com/zenon-cloudinary/image/upload/v1637755065/unsplash-wallpapers-assets/Screenshot_471_pinrnu.png)
+![Settings](https://res.cloudinary.com/zenon-cloudinary/image/upload/v1637755065/unsplash-wallpapers-assets/Screenshot_471_pinrnu.png)
 
 
 ### That's finally it, your wallpaper slideshow is ready. All you have to do now is to run this script again and enter 2 as input to reset this folder with fresh new wallpapers next time :)
