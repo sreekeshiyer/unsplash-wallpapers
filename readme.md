@@ -79,13 +79,12 @@ python main.py
 <li>
 Check your results in the specified directory.
 <br/>
-![folder](https://prnt.sc/20rfpkq)
+
 <br/>
 
 <li>
-Under Personalization => Background, browse for this folder and select slideshow.
-  
-![personalization](https://prnt.sc/20rgm60)
+Under Settings=> Personalization => Background, browse for this folder and select slideshow.
+
 <br/>
 
 ### That's finally it, your wallpaper slideshow is ready. All you have to do now is to run this script again and enter 2 as input to reset this folder with fresh new wallpapers next time :)
