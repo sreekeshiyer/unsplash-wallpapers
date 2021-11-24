@@ -3,13 +3,6 @@ import re
 import requests
 import os
 
-# CHANGE THIS PATH FOR YOUR PC
-# If you are using Windows, use \\ as demonstrated
-# Make sure the path ends with a '/' or a '\\'
-
-directory = "C:\\Users\\zenon\\Pictures\\wallpapers\\"
-
-
 def save_wallpapers(directory):
 
     print("\n")
