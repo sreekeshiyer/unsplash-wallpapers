@@ -1,7 +1,5 @@
 ## Unsplash Wallpapers
 
----
-
 ### Installation
 
 <ol>
