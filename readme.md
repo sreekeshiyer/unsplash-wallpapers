@@ -5,7 +5,7 @@
 <ol>
 <li>
 Clone this Repository.
-<br>
+<br/>
 
 ```bash
 git clone https://github.com/sreekeshiyer/unsplash-wallpapers.git
@@ -13,7 +13,7 @@ git clone https://github.com/sreekeshiyer/unsplash-wallpapers.git
 
 <li>
 Create a Virtual Environment.
-<br>
+<br/>
 
 ```bash
 # Linux
@@ -32,7 +32,7 @@ py -3 -m venv .venv
 
 <li>
 Upgrade pip and install the requests module.
-
+<br/>
 ```
 python -m pip install --upgrade pip
 python -m pip install requests
@@ -41,7 +41,7 @@ python -m pip install requests
 <li>
 Register yourself at <a href="https://unsplash.com/developers">Unsplash Developers</a> and get an Access Key.
 <br/>Add this Access Key in **config.py** -
-
+<br/>
 ```python
 #config.py
 API_KEY = 'ENTER_YOUR_KEY_HERE'
@@ -49,7 +49,7 @@ API_KEY = 'ENTER_YOUR_KEY_HERE'
 
 <li>
 I like landscapes and cityscapes as my wallpapers. If you prefer anything else, add it to the search query in **get_wallpapers.py**
-
+<br/>
 ```python
 # get_wallpapers.py
 #line 5
@@ -62,7 +62,7 @@ You can actually search this query on their website to see if you get what you e
 <br/>
 <li>
 In **main.py** change the directory variable to your preferred directory.
-
+<br/>
 ```python
 #main.py
 #line 8
@@ -71,7 +71,7 @@ directory = "C:\\Users\\<user_name>\\Pictures\\walls\\"
 
 <li>
 Run the file.
-
+<br/>
 ```bash
 python main.py
 ```
