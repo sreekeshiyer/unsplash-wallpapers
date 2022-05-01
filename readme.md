@@ -2,18 +2,13 @@
 
 ### Installation
 
-<ol>
-<li>
 Clone this Repository.
-<br>
 
 ```bash
 git clone https://github.com/sreekeshiyer/unsplash-wallpapers.git
 ```
 
-<li>
-Create a Virtual Environment.
-<br>
+-   Create a Virtual Environment.
 
 ```bash
 # Linux
@@ -28,25 +23,21 @@ py -3 -m venv .venv
 .venv\scripts\activate
 ```
 
-<li>
-Upgrade pip and install the requests module.
+-   Upgrade pip and install the requests module.
 
 ```
 python -m pip install --upgrade pip
 python -m pip install requests
 ```
 
-<li>
-Register yourself at <a href="https://unsplash.com/developers" target="_blank">Unsplash Developers</a> and get an Access Key.
-<br/>Add this Access Key in `config.py` -
+-   Register yourself at <a href="https://unsplash.com/developers" target="_blank">Unsplash Developers</a> and get an Access Key. <br/>Add this Access Key in `config.py` -
 
 ```python
 #config.py
 API_KEY = 'ENTER_YOUR_KEY_HERE'
 ```
 
-<li>
-I like landscapes and cityscapes as my wallpapers. If you prefer anything else, add it to the search query in `get_wallpapers.py`
+-   I like landscapes and cityscapes as my wallpapers. If you prefer anything else, add it to the search query in `get_wallpapers.py`
 
 ```python
 # get_wallpapers.py
@@ -58,8 +49,8 @@ landscapes_url = 'https://api.unsplash.com/search/photos?page=1&query=[ENTER_YOU
 You can actually search this query on their website to see if you get what you expect. 
 <br/> You can modify per_page to change the number of results. The current setup gives you 20+20 i.e roughly 37-38 wallpapers (the sponsored results are removed)
 <br/>
-<li>
-In **main.py** change the directory variable to your preferred directory.
+
+-   In `main.py` change the directory variable to your preferred directory.
 
 ```python
 #main.py
@@ -67,24 +58,20 @@ In **main.py** change the directory variable to your preferred directory.
 directory = "C:\\Users\\<user_name>\\Pictures\\walls\\"
 ```
 
-<li>
-Run the file.
+-   Run the file.
 
 ```bash
 python main.py
 ```
 
-<li>
-Check your results in the specified directory.
+-   Check your results in the specified directory.
 
 ![WallsFolder](https://res.cloudinary.com/zenon-cloudinary/image/upload/v1637754987/unsplash-wallpapers-assets/Screenshot_470_czewgr.png)
 
 <br/>
 
-<li>
-Under Settings=> Personalization => Background, browse for this folder and select slideshow.
-  
+-   Under Settings=> Personalization => Background, browse for this folder and select slideshow.
+
 ![Settings](https://res.cloudinary.com/zenon-cloudinary/image/upload/v1637755065/unsplash-wallpapers-assets/Screenshot_471_pinrnu.png)
 
-
-### That's finally it, your wallpaper slideshow is ready. All you have to do now is to run this script again and enter 2 as input to reset this folder with fresh new wallpapers next time :)
+That's finally it, your wallpaper slideshow is ready. All you have to do now is to run this script again and enter 2 as input to reset this folder with fresh new wallpapers next time :)
