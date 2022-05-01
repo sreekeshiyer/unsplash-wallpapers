@@ -38,7 +38,7 @@ python -m pip install requests
 
 <li>
 Register yourself at <a href="https://unsplash.com/developers" target="_blank">Unsplash Developers</a> and get an Access Key.
-<br/>Add this Access Key in **config.py** -
+<br/>Add this Access Key in `config.py` -
 
 ```python
 #config.py
@@ -46,7 +46,7 @@ API_KEY = 'ENTER_YOUR_KEY_HERE'
 ```
 
 <li>
-I like landscapes and cityscapes as my wallpapers. If you prefer anything else, add it to the search query in **get_wallpapers.py**
+I like landscapes and cityscapes as my wallpapers. If you prefer anything else, add it to the search query in `get_wallpapers.py`
 
 ```python
 # get_wallpapers.py
